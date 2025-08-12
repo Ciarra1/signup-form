@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  display: flex;
+  background-color: rgb(245, 245, 245);
+}
+.branding-panel {
+  display: flex;
+  width: 100%;
+  font-family: "Norse", sans-serif;
+  color: white;
+  margin-top: 30vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 28vh;
+  justify-content: center;
+  align-items: center;
+}
+.entry-panel {
+  height: 100vh;
+  width: 35%;
+  background-color: red;
+  background-image: url("resources/bg.avif");
+  flex-shrink: 0;
+}
+
+.branding-panel h1 {
+  font-size: 85px;
+}
+
+.logo-img {
+  height: 130px;
+}
+
+.header > h1 {
+  margin-top: 73px;
+  padding: 0 75px 10px 25px;
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-size: 1.3rem;
+}
+
+form {
+  margin-top: 40px;
+  background-color: rgb(255, 255, 255);
+  padding: 20px 30px 20px 30px;
+}
+.form-header {
+  margin-top: 0px;
+  padding: 0px;
+}
+
+form > p {
+  padding: 0px;
+  font-size: 10px;
+  padding-bottom: 8px;
+  opacity: 0.5;
+}
+
+.input-container {
+  display: flex;
+}
+.input-container div {
+  padding: 0 20px 20px 0;
+}
+.left-inputs {
+  display: flex;
+  flex-direction: column;
+}
+.left-inputs div {
+  display: flex;
+  flex-direction: column;
+}
+.right-inputs div {
+  display: flex;
+  flex-direction: column;
+}
+.right-inputs {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  width: 250px;
+  padding: 5px 0 5px 0;
+  font-size: 0.8rem;
+  border: 0.5px solid rgba(0, 0, 0, 0.5);
+}
+label {
+  font-size: 0.8rem;
+  color: rgb(80, 80, 80);
+  letter-spacing: 2px;
+}
+button {
+  margin: 25px;
+  width: 200px;
+  border: solid;
+  background-color: rgb(147, 181, 44);
+  border-color: white;
+  color: white;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.form-header {
+  font-size: 1.7rem;
+}
+p {
+  padding-left: 30px;
+}

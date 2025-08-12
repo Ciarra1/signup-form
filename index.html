@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Sign Up Form</title>
+  </head>
+  <body>
+    <div class="entry-panel">
+      <div class="branding-panel">
+        <img src="resources/odin-lined.png" class="logo-img" alt="" />
+        <h1>ODIN</h1>
+      </div>
+    </div>
+    <div class="content">
+      <div class="header">
+        <h1>
+          nothing beats a jet2 holiday and right now you can save £50 per
+          person. that's £200 off for a family of 4. we've got millions of free
+          child place holidays available with 22kg of baggage included. book now
+          with jet2holidays. package holidays you can trust!
+        </h1>
+        <form action="/signup-form" method="post">
+          <h1 class="form-header">Let's do this!</h1>
+          <p>Fields marked with * are required.</p>
+          <div class="input-container">
+            <div class="left-inputs">
+              <div>
+                <label for="first-name">FIRST NAME</label>
+                <input type="text" id="first-name" name="first-name" />
+              </div>
+              <div>
+                <label for="email">EMAIL</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="john@example.com"
+                />
+              </div>
+              <div>
+                <label for="password">*PASSWORD</label>
+                <input type="password" id="password" name="password" required />
+              </div>
+              <div>
+                <label for="date">* Date of Birth</label>
+                <input type="date" id="date" name="date" />
+              </div>
+            </div>
+
+            <div class="right-inputs">
+              <div>
+                <label for="last-name">LAST NAME</label>
+                <input type="text" id="last-name" name="last-name" />
+              </div>
+              <div>
+                <label for="phone">PHONE NUMBER</label>
+                <input
+                  type="number"
+                  id="phone"
+                  name="phone"
+                  minlength="11"
+                  maxlength="12"
+                  placeholder="(63) 915 969 0485"
+                />
+              </div>
+              <div>
+                <label for="confirm-password">*CONFIRM PASSWORD</label>
+                <input
+                  type="password"
+                  id="confirm-password"
+                  name="confirm-password"
+                  required
+                />
+              </div>
+            </div>
+          </div>
+        </form>
+        <div class="btn-div">
+          <button>CREATE ACCOUNT</button>
+        </div>
+        <p>
+          Already have an account?
+          <a href="">Log in</a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
