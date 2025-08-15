@@ -35,7 +35,7 @@ body {
 }
 
 .header > h1 {
-  margin-top: 73px;
+  margin-top: 50px;
   padding: 0 75px 10px 25px;
   font-family: Arial, Helvetica, sans-serif;
 
@@ -108,4 +108,22 @@ button {
 }
 p {
   padding-left: 30px;
+}
+
+footer {
+  padding-top: 14px;
+  display: flex;
+  position: relative;
+  opacity: 50%;
+}
+
+footer p {
+  margin-top: 20px;
+}
+footer img {
+  position: absolute;
+  padding-left: 6px;
+  height: 25px;
+  left: 245px;
+  top: 25px;
 }
